@@ -19,7 +19,6 @@ public class Memo {
     }
     //need local storage deleter
     public boolean deleteMemo(Memo memo){
-        
         memo = null;
         return true;
     }
