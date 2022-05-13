@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="conMenu" alignment="BOTTOM_CENTER" prefWidth="300.0" style="-fx-background-color: #787878;">
+         <children>
+            <Button fx:id="btnRegisterNavigate" alignment="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-font-style: bold;" stylesheets="@../../../style/styles.css" text="REGISTER">
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="conMain" prefWidth="700.0" style="-fx-background-color: #D3D3D3;">
+         <children>
+            <BorderPane prefHeight="1000.0" prefWidth="1000.0">
+               <bottom>
+                  <Button fx:id="btnAsGuest" alignment="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-font-style: bold;" stylesheets="@../../../style/styles.css" text="AS GUEST" BorderPane.alignment="BOTTOM_RIGHT">
+                     <BorderPane.margin>
+                        <Insets bottom="50.0" right="50.0" />
+                     </BorderPane.margin></Button>
+               </bottom>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <center>
+                  <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                     <padding>
+                        <Insets bottom="100.0" left="100.0" right="100.0" top="100.0" />
+                     </padding>
+                     <children>
+                        <Label text="Label" />
+                        <TextField />
+                        <Label text="Label" />
+                        <TextField />
+                        <SVGPath fx:id="imageLoginDone" content="M 24 40 L 21.9 37.85 L 34.25 25.5 H 8 V 22.5 H 34.25 L 21.9 10.15 L 24 8 L 40 24 Z" />
+                     </children>
+                  </VBox>
+               </center>
+            </BorderPane>
+         </children></VBox>
+   </children>
+</HBox>
