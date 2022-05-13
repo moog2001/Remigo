@@ -17,6 +17,8 @@ public class MemoDate extends Memo {
         this.nextRemindDate = nextRemindDate;
     }
 
+    public MemoDate(){}
+
     public LocalDate getLastRemindDate() {
         return lastRemindDate;
     }
