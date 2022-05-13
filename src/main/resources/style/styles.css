@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.ttf');
+}
+
+
+.button {
+    -fx-background-color: #C4C4C4;
+    -fx-background-radius: 30px;
+    -fx-pref-height: 60px;
+    -fx-font: 22px Roboto;
+    -fx-font-weight: bold;
+}
